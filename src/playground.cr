@@ -6,4 +6,8 @@ module Playground
   def test
     a = 1 # ameba:disable Lint/UselessAssign
   end
+
+  def test2
+    a = 2
+  end
 end
