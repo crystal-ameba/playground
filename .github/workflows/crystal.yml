@@ -11,6 +11,11 @@ jobs:
       image: crystallang/crystal
 
     steps:
+    - name: Crystal Ameba Linter
+      id: crystal-ameba
+      uses: crystal-ameba/github-action@v0.2.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - uses: actions/checkout@v1
     - name: Install dependencies
       run: shards install
