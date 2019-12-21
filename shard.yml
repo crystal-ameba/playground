@@ -1,0 +1,13 @@
+name: playground
+version: 0.1.0
+
+authors:
+  - Vitalii Elenhaupt <velenhaupt@gmail.com>
+
+targets:
+  playground:
+    main: src/playground.cr
+
+crystal: 0.32.0
+
+license: MIT
